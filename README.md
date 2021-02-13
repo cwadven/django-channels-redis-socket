@@ -59,11 +59,11 @@ Redis 설치한 곳 Programfiles의 Redis에서 파일 실행
 **7. websocket 연결되어있는 페이지**
 > http://my.computer.host.ip/alarm
 
-<img alt="outside" src="https://github.com/cwadven/django-channels-redis-socket/blob/master/assets/toast_popup.PNG" />
+<img alt="outside" src="https://github.com/cwadven/django-channels-redis-socket/blob/master/assets/toast_popup.png" />
 
 ---
 
 **8. receiver에 적용되어있는 websocket 전송 보내는 이벤트**
 > http://my.computer.host.ip/send
 
-<img alt="inside" src="https://github.com/cwadven/django-channels-redis-socket/blob/master/assets/button_receiver.PNG" />
+<img alt="inside" src="https://github.com/cwadven/django-channels-redis-socket/blob/master/assets/button_receiver.png" />
