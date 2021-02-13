@@ -14,7 +14,7 @@ def announce_likes(sender, instance, created, **kwargs):
         channel_layer=get_channel_layer()
         async_to_sync(channel_layer.group_send)(
             # 특정 groupname을 지점 이 경우 instance의 외래키로 묶여져있는 게시글 묶기
-            "root", {
+            "king", {
                 "type": "share_message",
                 "message": instance.message + str(instance.id),
             }

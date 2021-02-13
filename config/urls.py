@@ -4,6 +4,6 @@ from chat import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ShareMe', views.ShareMe.as_view()),
-    path('Alarm', views.Alarm.as_view()),
+    path('send', views.ShareMe.as_view()),
+    path('alarm', views.Alarm.as_view()),
 ]
